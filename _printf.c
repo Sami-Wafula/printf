@@ -10,9 +10,9 @@
  */
 int _printf(const char *format, ...)
 {
-	int (*pfunc)(var_list, flags_t *);
+	int (*pfunc)(va_list, flags_t *);
 	const char *p;
-	var_list arguments;
+	va_list arguments;
 	flags_t flags = {0, 0, 0};
 
 	register int count = 0;
