@@ -3,7 +3,7 @@
 /**
  * _printf - produces output according to a format
  * @format: format string containing the characters and the specifiers
- * Description: this function calls the get_print() function that 
+ * Description: this function calls the get_print() function that
  * determines which printing function to call depending on the conversion
  * specifiers contained in format
  * Return: length of the output string
